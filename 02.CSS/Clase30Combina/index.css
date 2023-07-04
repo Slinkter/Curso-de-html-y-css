@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .clasetrescero h2 + p {
@@ -10,4 +11,7 @@
 
 .clasetresone h2 ~ p {
   color: blue;
+}
+.clasetresdos div > p {
+  color: green;
 }
