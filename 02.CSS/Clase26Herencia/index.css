@@ -1,0 +1,9 @@
+html {
+  font-size: 75%;
+  color: red;
+}
+
+p {
+  font-size: inherit;
+  color: black;
+}
