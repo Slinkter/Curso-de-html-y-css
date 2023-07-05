@@ -15,12 +15,12 @@ body {
   border: solid 0.3rem black;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .box {
-  width: 10rem;
   height: 10rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
 }
 .box1 {
   background-color: red;
