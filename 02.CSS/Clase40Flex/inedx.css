@@ -14,11 +14,14 @@ body {
 .container {
   border: solid 0.3rem black;
   display: flex;
+  height: 50vh;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .box {
   height: 10rem;
+  width: 10rem;
   flex-basis: 10rem;
   flex-grow: 1;
 }
